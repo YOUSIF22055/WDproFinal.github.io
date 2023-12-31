@@ -1,0 +1,164 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: content-box;
+}
+
+
+.navigation {
+    background-color: black;
+    height: 25rem; 
+
+}
+
+.A-navigation a{
+    text-decoration: none;
+    color: white;
+    margin-left: 275px;
+}
+
+.A-navigation a:hover{
+    color: rgb(163, 161, 161);
+}
+
+.PT{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.PTPP{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*Home*/
+
+.Home {
+    width: 100%;
+    min-height: 150vh; 
+    z-index: 999;
+    text-align: center;
+}
+
+
+.PTH{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 10rem;
+}
+
+.Choose{
+    font-weight: 200;
+    color: rgb(0, 0, 0, 0.5);
+    margin-top: 1.5rem;
+}
+
+.image1, .image2, .image3{
+    width: 20rem;
+    margin-top: 3rem;
+}
+
+.Text{
+    width: 60rem;
+}
+
+.image5, .image6, .image7{
+    width: 20rem;
+    margin-top: 3rem;
+}
+
+.Text2{
+    width: 60rem;
+}
+
+/*Pack*/
+
+.Packages {
+    width: 100%;
+    min-height: 160vh; 
+    z-index: 999;
+    text-align: center;
+}
+
+.PEP{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 10rem;
+}
+
+.Choose2{
+    text-align: center;
+    font-weight: 200;
+    color: rgb(0, 0, 0, 0.5);
+    margin-top: 1.5rem;
+}
+
+/*Cards*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(46, 46, 46, 1);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: rgba(222, 16, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Image9{
+    width: 80rem;
+}
+
+.Image10{
+    width: 90rem;
+    margin-top: 5rem;
+}
+
+
+.Contact{
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+.icons{
+    padding: 10px;
+}
